@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Sofia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://st4.depositphotos.com/1031062/24841/i/450/depositphotos_248416278-stock-photo-healthy-food-background-spinach-quinoa.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+} 
+
+.container {
+    border: 5px solid rgb(5, 139, 5) ;
+    border-radius: 15px;
+    background-color: rgba(89, 92, 89, 0.8);
+    padding: 1.2%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: auto;
+}
+.container__conteudo1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container__conteudo2 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-between;
+    gap: 15px;
+}
+
+.container__letreiro {
+    color: rgb(2, 197, 84);
+    text-shadow: 3px 3px 3px #000000;
+    font-size: 35px;
+    font-family: "Sofia";
+    margin-bottom: 10px;
+}
+
+.genero__container{
+    display: flex;
+    /*Adicionamos o display flex para introduzir o elemento dentro de um container flexivel*/
+    flex-direction: row;
+    /* Adicionamos a tag flex-direcition para mantém os botões lado a lado */
+    justify-content: center;
+    /*Adicionamos o justify-content center para centralizar os botões horizontalmente dentro do container*/
+    gap: 30px;
+    /*Adicionamos a tag gap para determinar um espaçamento (horizontal) entre um ou mais elementos paralelos*/
+    margin: 10px;
+    /*Adicionamos a margin-bottom para determinar o espaçamento entre os elementos acima */
+    margin-bottom: 20px;
+    /*Adicionamos a margin-bottom para determinar o espaçamento entre os elementos abaixo*/
+    width: 100px;
+    max-width: 150px;
+}
+  
+    .male {
+        font-size: 18px;
+        font-family:cursive;
+        background-color: rgb(246, 233, 107);
+        box-shadow:3px 3px 3px #000000;
+        border-radius: 6px;
+        padding: 5px;
+        transform: scale(1.1); /* Comando para ter um efeito ao passar o cursos sobre o botão*/
+        transition:0.3s; /*Determina a duração da transição ao passar o cursor */
+        cursor: pointer; /*comando para alterar o estilo do cursor*/
+    }
+    .female {
+        font-size: 18px;
+        font-family:cursive;
+        background-color: rgb(246, 233, 107);
+        border-radius: 6px;
+        box-shadow:3px 3px 3px #000000;
+        padding: 5px;
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    
+    .calcu {
+        font-size: 18px;
+        font-family:cursive;
+        background-color: rgb(246, 233, 107);
+        border-radius: 6px;
+        box-shadow:3px 3px 3px #000000;
+        transform: scale(1); 
+        transition-duration: 0.5s; 
+        cursor: pointer; 
+        padding: 15px;
+    }
+    label {
+        font-size: 18px;
+        font-family: cursive;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .male:hover, .female:hover, .calcu:hover {  /*Para ativar os efeitos de transição do comando "Transform/transition" devemos adicionar essa linha com o hover */
+        /* A :hoverpseudoclasse CSS é usada para selecionar elementos quando você passa o mouse sobre eles.*/
+       
+        background-color: rgb(64, 65, 62); /* Muda a cor ao passar o mouse */
+        color: rgb(80, 78, 78);
+        transform: scale(1.2); /* Aumenta um pouco o botão */
+        transition: 0.3s; /* Faz a mudança ser suave */
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Adiciona sombra para destacar */
+    }
+    @media screen and (max-width: 600px) {
+        .genero__container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .genero__container {
+            width: 80px;
+            max-width: none;
+        }
+    }
+
+    input {
+        width: 100%;
+        max-width: 200px;
+        height: 30px;
+        font-family: cursive;
+        box-shadow: 3px 3px 3px #000000;
+        text-align: center;
+    }
