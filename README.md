@@ -5,7 +5,11 @@
 Este projeto é uma calculadora de IMC desenvolvida para ajudar usuários a calcular seu Índice de Massa Corporal com base no peso e altura informados.  
 
 ## 📷 Demonstração  
+<p align="center" >
+ 
+<img src="" width="300">
 
+</p>
 
 ## 🛠 Tecnologias  
 
