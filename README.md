@@ -7,7 +7,8 @@ Este projeto é uma calculadora de IMC desenvolvida para ajudar usuários a calc
 ## 📷 Demonstração  
 <p align="center" >
  
-<img src="https://github.com/Flira07/Calculo-IMC/blob/main/Detalha%20da%20C%C3%A1lculadora.png" width="650">
+<img src="https://github.com/Flira07/Calculo-IMC/blob/main/Detalha%20da%20C%C3%A1lculadora.png" width="350">
+<img src="Conclusão do detalhe da cálculadora.png" width="336">
 
 </p>
 
