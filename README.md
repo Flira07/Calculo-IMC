@@ -1,0 +1,18 @@
+# 📊 Calculadora de IMC  
+
+
+## 🔥 Sobre o Projeto  
+Este projeto é uma calculadora de IMC desenvolvida para ajudar usuários a calcular seu Índice de Massa Corporal com base no peso e altura informados.  
+
+## 📷 Demonstração  
+<p align="center" >
+ 
+<img src="https://github.com/Flira07/Calculo-IMC/blob/main/Detalha%20da%20C%C3%A1lculadora.png" width="650">
+
+</p>
+
+## 🛠 Tecnologias  
+
+ ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)   ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+
+
